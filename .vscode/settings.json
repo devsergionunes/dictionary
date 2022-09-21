@@ -1,0 +1,63 @@
+{
+  "editor.fontLigatures": true,
+  "explorer.compactFolders": false,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.rulers": [
+    100
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false,
+  "eslint.packageManager": "npm",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json"
+  },
+  "editor.renderLineHighlight": "gutter",
+  "terminal.integrated.fontSize": 14,
+  "workbench.startupEditor": "welcomePage",
+  "editor.tabSize": 2,
+  "extensions.ignoreRecommendations": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "editor.parameterHints.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "typescript.tsserver.log": "off",
+  "javascript.suggest.autoImports": true,
+  "workbench.settings.editor": "json",
+  "files.eol": "\n",
+  "color-highlight.markRuler": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false
+}
