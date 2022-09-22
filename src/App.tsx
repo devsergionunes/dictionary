@@ -1,11 +1,20 @@
+import { ThemeProvider as ThemeMaterial, ThemeOptions } from "@mui/material";
+import { DefaultTheme, ThemeProvider } from "styled-components";
+
+import { MyRoutes } from "./routes";
+import { useAppSelector } from "./store/hooks";
 import { GlobalStyle } from "./styles/Global";
 
 function App() {
+  const theme = useAppSelector(({ Utils }) => Utils.theme.object);
+
   return (
-    <div className="App">
-      <h1>Hello Word</h1>
-      <GlobalStyle />
-    </div>
+    <ThemeProvider theme={theme as DefaultTheme}>
+      <ThemeMaterial theme={theme as ThemeOptions}>
+        <MyRoutes />
+        <GlobalStyle />
+      </ThemeMaterial>
+    </ThemeProvider>
   );
 }
 

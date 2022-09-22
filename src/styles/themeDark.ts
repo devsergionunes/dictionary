@@ -5,7 +5,6 @@ export default {
     paperDark: "rgba(0, 0, 0, 0.38)",
     hover: "rgba(0, 0, 0, 0.38)",
     active: "rgba(0, 0, 0, 0.38)",
-    blueLight: "#002b405c",
   },
   border: {
     light: "#555",
@@ -20,15 +19,28 @@ export default {
   palette: {
     mode: "dark",
     primary: {
-      main: "#006494",
-      light: "rgb(51, 131, 169)",
-      dark: "rgb(0, 70, 103)",
+      main: "#6a80ff",
+      light: "#6a80ff",
+      dark: "#6a80ff",
     },
+
     secondary: {
-      main: "#ff6e07",
-      light: "rgb(255, 139, 56)",
-      dark: "rgb(178, 77, 4)",
+      main: "#bf54ed",
+      light: "#bf54ed",
+      dark: "#bf54ed",
     },
+  },
+
+  device: {
+    mobile: "@media only screen and (max-width: 480px)",
+    tablet: "@media only screen and (max-width: 768px)",
+    laptop: "@media only screen and (max-width: 1024px)",
+    desktop: "@media only screen and (max-width: 2560px)",
+  },
+
+  efects: {
+    linearGradiente:
+      "linear-gradient(136deg, #6a80ff 0%, #bf54ed 50%, #580089 100% )",
   },
 
   typography: {
@@ -80,7 +92,7 @@ export default {
       fontWeightBold: 700,
     },
     h6: {
-      fontSize: "1rem",
+      fontSize: "1.2rem",
       fontWeight: 300,
       fontWeightLight: 300,
       fontWeightRegular: 400,
