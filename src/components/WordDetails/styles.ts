@@ -19,11 +19,18 @@ export const BoxHeader = styled(Card)`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
     gap: 2rem;
     width: 100%;
     height: 220px;
     border: 1px solid ${theme.palette.primary.main} !important;
   `}
+`;
+
+export const BoxIconFavorite = styled.div`
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
 `;
 
 export const Content = styled.div`
@@ -64,7 +71,6 @@ export const ProgressBar = styled.div<ProgressBarProps>`
   ${({ theme, percent }) => css`
     width: ${percent}%;
     height: 100%;
-    transition: width 0.5s ease-in-out;
     position: absolute;
     top: 0;
     left: 0;

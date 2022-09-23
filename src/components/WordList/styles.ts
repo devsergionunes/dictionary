@@ -60,9 +60,10 @@ export const WordListContent = styled(Card)`
   ${({ theme }) => css`
     flex: 1;
     max-height: 60vh;
-    overflow-y: scroll !important;
+    overflow-y: auto !important;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(3rem, 3rem));
     border: 1px solid ${theme.palette.primary.main};
 
     scrollbar-width: 5px; /* for Firefox */
