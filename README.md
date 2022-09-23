@@ -73,7 +73,7 @@
   O projeto e sua instruções de execução estão disponíveis no link abaixo:
 </p>
 
-### [Api Dictionary](https://dictionaryapi.dev/)
+### [Api Dictionary](https://github.com/devsergionunes/api-dictionary)
 
 <hr>
 
