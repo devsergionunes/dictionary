@@ -12,6 +12,8 @@
   <p>MOBILE</p>
 </div>
 
+<hr>
+
 ## Funcionalidades
 - Vialização de uma lista de palavras em inglês
 - Listagem com rolagem infinita
@@ -19,6 +21,8 @@
 - Remove palavras da lista de favoritos
 - Cache das palavras ja visualizadas (LocalStorage)
 - Parametros de busca adicinados a URL
+
+<hr>
 
 ## Tecnologias:
 
@@ -58,6 +62,10 @@
 
 <hr>
 
+### Desafio proposto pela [Coodesh](https://coodesh.com/)
+### Video Apresentação do projeto [video](https://www.loom.com/embed/ceb20165c11e4f689715701dca0c4c4d)
+
+<hr>
 
 ## API LOCAL (BACK-END):
 <p>
