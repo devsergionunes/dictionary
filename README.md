@@ -1,46 +1,86 @@
-# Getting Started with Create React App
+# Dictionary
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align='center'>
+  <img src="public/images/dictionary-desktop.png"></img>
+  <p>DASHBORD</p>
+</div>
 
-## Available Scripts
+<div align='center' >
+  <img src="public/images/dictionary-mobile.png" ></img>
+  <img src="public/images/dictionary-mobile-3.png" ></img>
+  <img src="public/images/dictionary-mobile-2.png" ></img>
+  <p>MOBILE</p>
+</div>
 
-In the project directory, you can run:
+## Funcionalidades
+- Vialização de uma lista de palavras em inglês
+- Listagem com rolagem infinita
+- Adiciona palavras a lista de favoritos
+- Remove palavras da lista de favoritos
+- Cache das palavras ja visualizadas (LocalStorage)
+- Parametros de busca adicinados a URL
 
-### `npm start`
+## Tecnologias:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### TypeScript:
+- [TypeScript](https://www.typescriptlang.org/)
+- Linguagem de programação que adiciona tipagem estática e alguns outros recursos a linguagem JavaScript.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### React.js:
+- [React.js](https://reactjs.org/)
+- Biblioteca JavaScript para criação de interfaces de usuário.
 
-### `npm test`
+### Material-ui:
+- [Material-ui](https://material-ui.com/)
+- Biblioteca de componentes React para a construção de interfaces de usuário baseadas em Material Design.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Styled-components:
+- [Styled-components](https://styled-components.com/)
+- Biblioteca utilizada para a criação de estilos.
 
-### `npm run build`
+### Axios:
+- [Axios](https://axios-http.com/docs/intro)
+- Biblioteca utilizada para a requisição de dados.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### React-router-dom:
+- [React-router-dom](https://github.com/remix-run/react-router)
+- Biblioteca utilizada para a navegação entre as páginas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Redux:
+- [Redux](https://redux.js.org/)
+- [React Redux](https://react-redux.js.org/)
+- Utilizado para gerenciar o estado da aplicação.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prettier e Eslint:
+- [Prettier](https://prettier.io/)
+- [Eslint](https://eslint.org/)
+- Bibliotecas utilizadas para padronização de código.
 
-### `npm run eject`
+<hr>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## API LOCAL (BACK-END):
+<p>
+  Foi criada outro projeto com a api em node.js, para que a aplicação possa ser executada localmente.
+  O projeto e sua instruções de execução estão disponíveis no link abaixo:
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### [Api Dictionary](https://dictionaryapi.dev/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<hr>
 
-## Learn More
+## INICIANDO O PROJETO:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `EXECUTANDO O PROJETO BACK-END ANTES DE INICIAR O FRONT-END`
+clone o projeto:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<pre>
+  git clone https://github.com/devsergionunes/dictionary.git
+</pre>
+
+
+Iniciar aplicação:
+
+<pre>
+ npm install && npm start
+</pre>
